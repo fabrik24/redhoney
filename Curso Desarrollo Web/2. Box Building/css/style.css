@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.fondoAzul{
+    background-color:cadetblue;
+}
+
+.block{
+    background-color: #d981ff;
+    border: solid 5px #000000;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    display: block;
+}
+
+.inline{
+    background-color: darkolivegreen;
+    display: inline;
+}
+
+.margin{
+    margin: 25px;
+}
+
+.padding{
+    padding: 15px;
+}
+
+.parra{
+    background-color: aquamarine;
+    font-size: 18px;
+    
+    padding: 50px;
+    
+    border-top: dashed 15px red;
+    border-bottom: dotted 15px yellow;
+    border-radius: 20px;
+
+    margin: 30px;
+
+    width: 300px;
+    height: 300px;
+
+    overflow: scroll;
+
+}
+
+video{
+    width: 350px;
+}

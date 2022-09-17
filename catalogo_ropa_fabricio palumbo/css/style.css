@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-style: none;
+}
+
+/* Header */
+
+.fondoHdr {
+    position: relative;
+    width: auto;
+    height: 125px;
+    background-color: rgba(185, 29, 29, 0.4);
+}
+
+.hdr {
+    width: auto;
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.banner img {
+    width: 100%;
+    height: 220px;
+}
+
+/* Menu */
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    height: 17vh;
+    align-items: flex-end;
+    flex-direction: row;
+    align-content: stretch;
+}
+
+.nav {
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.liNav {
+    list-style-type: none;
+    overflow: hidden;
+    border: 1px solid #CE9B49;
+    border-radius: 95px;
+    background-color: #ffffff;
+    padding: 16px;
+    width: 140.25px;
+    height: 20px;
+    text-align: center;
+}
+
+.liLogo {
+    list-style-type: none;
+    overflow: hidden;
+    border-radius: 95px;
+    background-color: #ffffff;
+}
+
+.menu a {
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: black;
+    font-weight: 700;
+}
+
+.menu li.active {
+    background-color: #CE9B49;
+    border: 1px solid #b91d1d;
+}
+
+.menu a.active {
+    color: #b91d1d;
+    text-shadow: 1px;
+    font-weight: 700;
+}
+
+
+/* Mains */
+
+.main {
+    display: flex;
+    height: 67vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.mainCat {
+    display: flex;
+    height: 152vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.mainContact {
+    display: flex;
+    height: 67vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+/* Quienes somos */
+
+.textoQSM {
+    display: flex;
+    width: 60%;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.textoQSM .titulo h1 {
+    color: #b91d1d;
+}
+
+.textoQSM .texto p {
+    text-align: center;
+    margin: 20px;
+}
+
+.fotoQSM {
+    display: flex;
+    width: 40%;
+    height: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotoQSM img {
+    width: 500px;
+    height: 350px;
+}
+
+.fotoQSM p {
+    width: 30vh;
+    font-size: xx-small;
+}
+
+.catalogo {
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleCat h1 {
+    font-family: 'Cutive Mono', monospace;
+    color: #BB1D1D;
+}
+
+.catalogo table {
+    border: 2px dashed #CE9B49;
+}
+
+.catalogo tr,
+td {
+    border: 1px dotted #b91d1d;
+}
+
+.catalogo ul {
+    list-style: none;
+}
+
+.catalogo img {
+    width: 350px;
+    height: 350px;
+}
+
+/* New In */
+
+.newin {
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.newin h1 {
+    color: #CE9B49;
+}
+
+.newin p {
+    color: #bb1d1d8f;
+}
+
+/* Contacto */
+
+.mainContact h1 {
+    font-family: 'Cutive Mono', monospace;
+    color: #BB1D1D;
+    margin-bottom: 50px;
+}
+
+.contacto {
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contacto input {
+    margin: 5px;
+    padding: 3px;
+    border: 1px solid hsla(0, 0%, 0%, 0.4);
+}
+
+/* Index */
+
+.moduloRopa img {
+    width: 300px;
+}
+
+.moduloRopa tr,
+td {
+    width: 300px;
+    padding: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    width: auto;
+    height: 16vh;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(185, 29, 29, 0.4);
+    box-sizing: border-box;
+
+}
+
+.redes {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.redes img {
+    width: 40px;
+    height: 40px;
+}
+
+.logoContact {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoContact img {
+    border-radius: 90px;
+    width: 90px;
+    height: 90px;
+}
+
+.logoContact ul {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+/* Propiedades Varias */
+
+body {
+    background-color: #e9e9e9;
+}
+
+.nomPrenda {
+    font-weight: 800;
+    color: #BB1D1D;
+    background-color: #CE9B49;
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.stick {
+    position: fixed;
+    top: 90%;
+    right: 1%;
+}
+
+.stick img {
+    width: 75px;
+    height: 75px;
+}
+
+
+/* Fin del codigo */
